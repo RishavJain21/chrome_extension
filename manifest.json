@@ -1,0 +1,14 @@
+{
+    "name": "Chrome Extension",
+    "version": "1.0",
+    "description": "A Chrome extension that can read the current opened tab and answer according to some prompts such as summary, main point of the website, etc.",
+    "manifest_version": 3,
+    "permissions": ["tabs", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
